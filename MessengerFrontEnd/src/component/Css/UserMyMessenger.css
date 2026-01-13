@@ -1,0 +1,85 @@
+/* 필터 버튼 스타일 개선 */
+.filter-buttons {
+  display: flex;
+  padding: 12px 0 20px 0;
+  align-items: center;
+  align-self: stretch;
+
+}
+.filter-buttonselect{
+  display: flex;
+  height: 35px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  color: #333;
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.filter-buttongap{
+display: flex;
+height: 35px;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #777;
+font-family: Pretendard;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.filter-buttons button {
+  padding: 12px 24px;
+  border: none;
+  background: none;
+  color: #666;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  margin: 0 8px;
+}
+/* 호버 효과 */
+.filter-buttonselect:hover {
+  color: #333;
+}
+
+.filter-buttonselect.active {
+  color: #000 !important;
+  font-weight: 700;
+}
+
+
+.username { font-weight: bold; }
+.post-time { font-size: 12px; color: #888; }
+
+/* 본문 */
+.post-content {
+  padding: 0 12px 12px 12px;
+  text-align: left;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+
+/* 사진 그리드 (내 사진 탭) */
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.photo-item {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  cursor: pointer;
+}
