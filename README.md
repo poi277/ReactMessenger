@@ -9,8 +9,7 @@ https://github.com/poi277/NextMessenger
 ## 프로젝트 구조
 ```
 프론트 : MessengerFrontEnd\src\component
-백엔드 :
-MessengerBackEnd\src\main\java\com\Messenger\Messenger
+백엔드 : MessengerBackEnd\src\main\java\com\Messenger\Messenger
 ```
 
 ## 기능
@@ -25,18 +24,29 @@ MessengerBackEnd\src\main\java\com\Messenger\Messenger
 
 ## 사용한 기술스택
 
-**프론트**
+### 프론트
+- HTML
+- CSS
+- JavaScript
+- React.js
 
-HTML, CSS, JavaScript, React.js
+### 백엔드
+- Spring Boot
+- Spring Security
+- JPA
+- JWT
+- OAuth2
+- HttpSession
 
-**백엔드**
+### DB
+- MySQL
+- Redis
 
-Spring Boot, Spring Security, JPA, JWT, OAuth2, HttpSession
-
-**DB**
-
-MySQL, Redis
-
-**인프라/배포**
-
-Docker, AWS (EC2, S3, CloudFront, RDS, Route 53, SSL 인증서)
+### 인프라 / 배포
+- Docker
+- AWS EC2
+- AWS S3
+- AWS CloudFront
+- AWS RDS
+- AWS Route 53
+- SSL 인증서
